@@ -88,6 +88,22 @@ implementation("com.google.android.gms:play-services-location:21.0.1")
 implementation("com.google.accompanist:accompanist-permissions:0.25.0")
 ```
 
+## 🔑 API Key Setup
+
+To fetch weather data, you need an API key from [WeatherAPI](https://www.weatherapi.com/).
+
+1. Get your API key from WeatherAPI.
+2. Open your project's `local.properties` file.
+3. Add the following line:
+
+```properties
+WEATHER_API_KEY=your_api_key_here
+```
+
+4. Make sure your build system (e.g., `build.gradle`) is configured to read this key.
+
+> ⚠️ Do **not** commit your `local.properties` file to version control.
+
 ## 🔌 API
 
 Weather data is provided by [WeatherAPI](https://www.weatherapi.com/). You need an API key to use the service.
