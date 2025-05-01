@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Airwise</string>
+
+    <string name="degree_icon">°C</string>
+
+    <!-- Hava durumu tavsiye kewordleri -->
+    <string name="keyword_rain">rain</string>
+    <string name="keyword_sun">sun</string>
+    <string name="keyword_snow">snow</string>
+    <string name="keyword_cloud">cloud</string>
+
+    <!-- Hava durumu tavsiye mesajları -->
+    <string name="weather_rainy_tip">Don\'t forget your umbrella ☔</string>
+    <string name="weather_sunny_tip">Don\'t forget your sunglasses 😎</string>
+    <string name="weather_snowy_tip">Dress warmly, it\'s snowing! ❄️</string>
+    <string name="weather_cloudy_tip">It’s a bit gloomy out, but don’t let it bring you down! ☁️</string>
+    <string name="weather_normal_tip">The weather is quite normal today 🌤️</string>
+
+    <!-- İnfo mesajları -->
+    <string name="info_humidity">Amount of moisture in the air. Ideal range is 40–60%.</string>
+    <string name="info_wind">Wind speed and direction. S = South.</string>
+    <string name="info_pressure">mb = millibar. Normal atmospheric pressure is around 1013 mb.</string>
+    <string name="info_uv">UV index shows sun\'s ultraviolet intensity. 0–2: low, 3–5: moderate.</string>
+    <string name="info_title">Info</string>
+    <string name="ok">OK</string>
+
+    <!-- Hata mesajları -->
+    <string name="error_message">An error has occurred.</string>
+    <string name="http_error_message">HTTP error</string>
+    <string name="network_error_message">Internet connection error.</string>
+
+    <!-- Condition background ifadeleri -->
+    <string name="condition_sunny">sunny</string>
+    <string name="condition_clear">clear</string>
+    <string name="condition_partly_cloudy">partly cloudy</string>
+    <string name="condition_cloudy">cloudy</string>
+    <string name="condition_overcast">overcast</string>
+    <string name="condition_rainy">rain</string>
+    <string name="condition_snowy">snow</string>
+    <string name="condition_foggy">fog</string>
+    <string name="condition_mist">mist</string>
+
+    <!-- Seacrhbar -->
+    <string name="search">Search</string>
+    <string name="city_name">City Name</string>
+
+    <string name="felt_temp">Felt:</string>
+
+    <string name="moisture">Moisture</string>
+    <string name="wind">Wind</string>
+    <string name="pressure">Pressure</string>
+    <string name="uv">UV</string>
+
+</resources>

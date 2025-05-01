@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Airwise</string>
+
+    <string name="degree_icon">°C</string>
+
+    <!-- Hava durumu tavsiye kewordleri -->
+    <string name="keyword_rain">yağmur</string>
+    <string name="keyword_sun">güneş</string>
+    <string name="keyword_snow">kar</string>
+    <string name="keyword_cloud">bulut</string>
+
+    <!-- Hava durumu mesajları -->
+    <string name="weather_rainy_tip">Şemsiye almayı unutma ☔</string>
+    <string name="weather_sunny_tip">Güneş gözlüğü takmayı unutma 😎</string>
+    <string name="weather_snowy_tip">Sıcak giyin, kar var! ❄️</string>
+    <string name="weather_cloudy_tip">Hafif karamsar hava, modunu düşürmesine izin verme! ☁️</string>
+    <string name="weather_normal_tip">Bugün hava gayet normal 🌤️</string>
+
+    <!-- İnfo mesajları -->
+    <string name="info_humidity">Havadaki nem oranı. %40–60 arası idealdir.</string>
+    <string name="info_wind">Rüzgar hızı ve yönü.</string>
+    <string name="info_pressure">mb = milibar. Normal hava basıncı 1013 mb civarındadır.</string>
+    <string name="info_uv">UV endeksi güneşin ultraviyole ışınlarının şiddetini gösterir. 0–2: düşük, 3–5: orta.</string>
+    <string name="info_title">Bilgi</string>
+    <string name="ok">Tamam</string>
+
+    <!-- Hata mesajları -->
+    <string name="error_message">Bir hata oluştu.</string>
+    <string name="http_error_message">HTTP hatası</string>
+    <string name="network_error_message">İnternet bağlantı hatası.</string>
+
+    <!-- Condition background ifadeleri -->
+    <string name="condition_sunny">güneşli</string>
+    <string name="condition_clear">açık</string>
+    <string name="condition_partly_cloudy">parçalı bulutlu</string>
+    <string name="condition_cloudy">bulutlu</string>
+    <string name="condition_overcast">kapalı</string>
+    <string name="condition_rainy">yağmur</string>
+    <string name="condition_snowy">kar</string>
+    <string name="condition_foggy">sis</string>
+    <string name="condition_mist">pus</string>
+
+    <!-- Seacrhbar -->
+    <string name="search">Ara</string>
+    <string name="city_name">Şehir Adı</string>
+
+    <string name="felt_temp">Hissedilen:</string>
+
+    <string name="moisture">Nem</string>
+    <string name="wind">Rüzgar</string>
+    <string name="pressure">Basınç</string>
+    <string name="uv">UV</string>
+</resources>
