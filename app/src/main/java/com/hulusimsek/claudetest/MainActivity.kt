@@ -9,8 +9,8 @@ import com.hulusimsek.claudetest.presentation.weather.WeatherScreen
 import dagger.hilt.android.AndroidEntryPoint
 import androidx.activity.viewModels
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import com.hulusimsek.claudetest.presentation.permission.LocationPermissionHandler
 import com.hulusimsek.claudetest.presentation.weather.WeatherViewModel
 import com.hulusimsek.claudetest.ui.theme.ClaudeTestTheme
@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        Log.e("sacmasapan", "mainActivity en başı")
         // Konum izinleri ve ayarları için register işlemi
         Log.e("izinler", "mainActivity - onCreate - creatlendi")
         locationPermissionHandler.register(
@@ -68,9 +68,11 @@ class MainActivity : ComponentActivity() {
             ClaudeTestTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colors.background
+                    color = MaterialTheme.colorScheme.background
                 ) {
+                    Log.e("sacmasapan", "mainActivity başı")
                     WeatherScreen(weatherViewModel)
+                    Log.e("sacmasapan", "mainActivity sonu")
                 }
             }
         }
